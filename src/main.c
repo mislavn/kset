@@ -5,6 +5,8 @@
 #include <string.h>
 #include <unistd.h>
 
+#include "main.h"
+
 char *version = "1.0";
 
 static void usage(const char *name)
@@ -13,6 +15,15 @@ static void usage(const char *name)
 	printf(" -h, --help     Show this text\n");
 	printf(" -v, --version  Version is %s\n", version);
 	printf(" -p, --print    Print kset if input is kset\n");
+}
+
+int32_t sum(int32_t first, int32_t second)
+{
+	int32_t sum = 0;
+
+	sum = first + second;
+
+	return sum;
 }
 
 int main(int argc, char **argv)
