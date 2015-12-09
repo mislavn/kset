@@ -31,7 +31,7 @@ int main(int argc, char **argv)
 	char *input = NULL;
 	int opt_i;
 	int c;
-
+printf("###########################\n");
 	struct option opt[] = {
 		{ "help", no_argument, 0, 'h' },
 		{ "version", no_argument, 0, 'v' },
