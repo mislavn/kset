@@ -20,10 +20,10 @@ static int teardown_f()
 
 static void test_sum()
 {
-	int32_t x = 2;
-	int32_t y = 2;
+	int x = 2;
+	int y = 2;
 
-	int32_t xy;
+	int xy;
 
 	xy = sum(x,y);
 

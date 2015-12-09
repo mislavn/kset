@@ -8,6 +8,6 @@
 #include <string.h>
 #include <unistd.h>
 
-int32_t sum(int32_t first, int32_t second);
+int sum(int first, int second);
 
 #endif /* __MAIN_H__ */

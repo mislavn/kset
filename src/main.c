@@ -17,9 +17,9 @@ static void usage(const char *name)
 	printf(" -p, --print    Print kset if input is kset\n");
 }
 
-int32_t sum(int32_t first, int32_t second)
+int sum(int first, int second)
 {
-	int32_t sum = 0;
+	int sum = 0;
 
 	sum = first + second;
 
